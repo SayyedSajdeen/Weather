@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(noaa-kcvlb727mn8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.name{
+    font-size: 60px;
+    color: aliceblue;
+}
+.container{
+    width: 500px;
+    height: 650px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+}
+
+input{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background: transparent;
+    padding: 20px;
+    color: white;
+} 
+
+input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-left: 50px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 25px;
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+
+.lower-section{
+    position: relative;
+    top: 300px;
+}
+ .humidity{
+    float: left;
+ }
+
+ .speed{
+    float: right;
+ }
+
+ p{
+    color: white;
+    font-size: 30px;
+ }
